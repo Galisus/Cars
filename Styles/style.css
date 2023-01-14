@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: bold;
+  src: url("../fonts/Robotobold.ttf");
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  vertical-align: bottom;
+}
+
+.menu {
+  margin-left: 244px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu_item {
+  margin-right: 115px;
+}
+
+.menu_item a {
+  font-size: 15px;
+  color: #030305;
+  text-decoration: none;
+}
+
+.menu_item a:hover {
+  border-bottom: 2px solid black;
+}
+
+.main {
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-size: cover;
+  padding: 104px 0 154px 0;
+}
+
+.main_info {
+  max-width: 855px;
+}
+
+.main_title {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 118%;
+  color: #030305;
+  margin-bottom: 40px;
+}
+
+.main_text {
+  font-size: 16px;
+  line-height: 130%;
+  color: #030305;
+  margin-bottom: 40px;
+  max-width: 502px;
+}
+
+.button {
+  padding: 20px;
+  width: 334px;
+  height: 64px;
+  background: #030305;
+  border: 0;
+  box-sizing: border-box;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #4b4b4b;
+}
+
+.car {
+  padding: 100px 0;
+}
+
+.sub_title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #030305;
+}
+
+.car_items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.car_item {
+  max-width: 384px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.car_item_image:hover img {
+  transform: scale(1.1);
+}
+.car_item_image img {
+  vertical-align: bottom;
+  transition: all 0.3s;
+}
+
+.car_item_title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #030305;
+  padding: 15px 0 17px 0;
+}
+
+.car_item_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car_item_point {
+  width: 110px;
+  height: 92px;
+  margin: 0 7.5px;
+}
+
+.car_item_point img {
+  margin-bottom: 11px;
+}
+
+.car_item_action {
+  margin-top: 13px;
+}
+
+.car_item_action .button {
+  width: 100%;
+  padding: 15px;
+  height: 54px;
+}
+
+.car_item_point > div:nth-child(2) {
+  font-weight: bold;
+}
+
+.price {
+  overflow: hidden;
+}
+
+.price .container {
+  position: relative;
+  padding-bottom: 121px;
+}
+
+.price .sub_title {
+  margin-bottom: 20px;
+}
+
+.price_text {
+  font-size: 16px;
+  line-height: 130%;
+  color: #505d5f;
+  margin-bottom: 60px;
+}
+
+.price_form {
+  max-width: 344px;
+}
+
+.price_input {
+  padding: 22px 18px;
+  width: 344px;
+  height: 65px;
+  background: #ffffff;
+  border: 1px solid #505d5f;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.price_input::placeholder {
+  color: #505d5f;
+}
+
+.price .button {
+  width: 100%;
+}
+
+.price_img {
+  position: absolute;
+  bottom: 0;
+  left: 401px;
+}
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 25px 0;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rights {
+  font-size: 15px;
+  text-align: right;
+  color: #4b4b4b;
+}
